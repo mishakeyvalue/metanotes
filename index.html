@@ -1,0 +1,11 @@
+---
+layout: default
+---
+Notes about non-tech things. To structure information I engage with.
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> 
+    </li>
+  {% endfor %}
+</ul>
